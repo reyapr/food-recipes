@@ -3,7 +3,7 @@ import './styles.css'
 
 const Card = () => {
   return (
-    <div className="grid-item">
+    <div>
       item
     </div>
   )

@@ -19,7 +19,10 @@ const Recipe = ({ recipes, actionGetRecipes }) => {
           {
             recipes.map((recipe, index) => {
               return(
-                <Card key={index}/>
+                <div className="grid-item" key={index}>
+                  <Card/>
+                </div>
+               
               )
             })
           }

@@ -13,3 +13,11 @@
   width: 95%;
 }
 
+.grid-item {
+  width: 44%;
+  height: 225px;
+  border: 1px solid;
+  margin: 2.6%;
+  border-radius: 8px;
+}
+
