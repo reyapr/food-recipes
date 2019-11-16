@@ -26,6 +26,19 @@ module.exports = (_, argv) => {
           use: {
             loader: "babel-loader"
           }
+        },
+        {
+          test: /\.css$/,
+          use: ['style-loader', 'css-loader']
+        },
+        {
+          test: /\.svg$/,
+          use: ['svg-loader']
+        },
+        {
+          test: /\.(eot|woff|woff2|svg|ttf)([\?]?.*)$/,
+          use: ['file-loader'],
+          include: [/fonts/]
         }
       ]
     },
