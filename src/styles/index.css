@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'SFRounded-Semibold';
+  src: url('fonts/SFProRounded/SFRounded-Semibold.eot');
+  src: url('fonts/SFProRounded/SFRounded-Semibold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/SFProRounded/SFRounded-Semibold.svg#SFRounded-Semibold') format('svg'),
+       url('fonts/SFProRounded/SFRounded-Semibold.ttf') format('truetype'),
+       url('fonts/SFProRounded/SFRounded-Semibold.woff') format('woff'),
+       url('fonts/SFProRounded/SFRounded-Semibold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFRounded-Regular';
+  src: url('fonts/SFProRounded/SFRounded-Regular.eot');
+  src: url('fonts/SFProRounded/SFRounded-Regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/SFProRounded/SFRounded-Regular.svg#SFRounded-Regular') format('svg'),
+       url('fonts/SFProRounded/SFRounded-Regular.ttf') format('truetype'),
+       url('fonts/SFProRounded/SFRounded-Regular.woff') format('woff'),
+       url('fonts/SFProRounded/SFRounded-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFRounded-Light';
+  src: url('fonts/SFProRounded/SFRounded-Light.eot');
+  src: url('fonts/SFProRounded/SFRounded-Light.eot?#iefix') format('embedded-opentype'),
+       url('fonts/SFProRounded/SFRounded-Light.svg#SFRounded-Light') format('svg'),
+       url('fonts/SFProRounded/SFRounded-Light.ttf') format('truetype'),
+       url('fonts/SFProRounded/SFRounded-Light.woff') format('woff'),
+       url('fonts/SFProRounded/SFRounded-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "SFRounded-Regular";
+}
