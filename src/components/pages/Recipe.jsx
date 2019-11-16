@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Card from '../organism/Card'
 import { getRecipes } from '../../redux/modules/recipe/actions'
 import { connect } from 'react-redux'
 
-const Recipe = ({ data, actionGetRecipes }) => {
+const Recipe = ({ actionGetRecipes }) => {
 
   useEffect(() => {
     actionGetRecipes()

@@ -34,7 +34,7 @@ module.exports = (_, argv) => {
           use: ['svg-loader']
         },
         {
-          test: /\.(eot|woff|woff2|svg|ttf)([\?]?.*)$/,
+          test: /\.(eot|woff|woff2|svg|ttf)([?]?.*)$/,
           use: ['file-loader'],
           include: [/fonts/]
         }
