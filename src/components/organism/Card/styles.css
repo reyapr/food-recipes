@@ -1,3 +1,7 @@
+.card {
+  min-height: 255px;
+}
+
 .hidden-text-overflow {
   text-overflow: ellipsis;
   overflow: hidden;
@@ -18,11 +22,6 @@
   font-family: "SFRounded-light";
   font-size: 0.7rem;
   padding: 5%;
-  height: 80px;
-}
-
-.space-content {
-  margin-bottom : 10%;
 }
 
 .space-header {
@@ -58,4 +57,11 @@
   -webkit-box-orient: vertical;
   font-size: 0.9em;
   color: rgb(59, 61, 59)
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100px;
 }

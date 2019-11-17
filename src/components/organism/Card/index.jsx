@@ -10,15 +10,19 @@ const Card = ({ image, name, creator, review, rating }) => {
           <p className="rating-text">{rating}</p>
         </div>
       </div>
-      <div className="card-content">
-        <div className="hidden-text-overflow name space-header text-blue-color">
-          {name} 
+      <div className="card-content card-container">
+        <div>
+          <div className="hidden-text-overflow name space-header text-blue-color">
+            {name} 
+          </div>
+          <div className="text-blue-color">
+            By: {creator}
+          </div>
         </div>
-        <div className="space-content text-blue-color">
-          By: {creator}
-        </div>
-        <div className="space-content review">
-          {review}
+        <div>
+          <div className="review">
+            {review}
+          </div>
         </div>
       </div>
     </div>
