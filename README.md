@@ -12,4 +12,4 @@ Food Recipes App
 |------------------|-----------|
 |`start` |Serves your app at `localhost:3000`.|
 |`build`|Compiles the application to disk (`~/build` by default).|
-|`serve` |Serves your builded app at `localhost:3000`. Using `./bin/cluster`, to simulate production behaviour.|
+|`serve` |Serves your builded app at `localhost:5000` to simulate production behaviour.|
