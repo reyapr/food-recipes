@@ -1,8 +1,24 @@
-.grid-item {
-  width: 44%;
-  height: 225px;
-  border: 1px solid;
-  margin: 2.6%;
-  border-radius: 8px;
+.hidden-text-overflow {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
+.header {
+  height: 125px;
+}
+
+.name {
+  font-family: "SFRounded-Semibold" ;
+  font-size: 14px;
+}
+
+.card-content {
+  font-family: "SFRounded-light";
+  font-size: 0.7rem;
+  padding: 5%;
+}
+
+.space-content {
+  margin-bottom : 5%;
+}
