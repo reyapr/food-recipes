@@ -17,7 +17,7 @@ const Card = ({ image, name, creator, review, rating }) => {
         <div className="space-content text-blue-color">
           By: {creator}
         </div>
-        <div className="space-content">
+        <div className="space-content review">
           {review}
         </div>
       </div>

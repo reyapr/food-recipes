@@ -45,3 +45,11 @@
 .text-blue-color {
   color: rgb(61, 157, 186)
 }
+
+.review {
+  overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    font-size: 0.8em;
+}
