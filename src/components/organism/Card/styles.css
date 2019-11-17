@@ -6,6 +6,7 @@
 
 .header {
   height: 125px;
+  position: relative;
 }
 
 .name {
@@ -21,4 +22,22 @@
 
 .space-content {
   margin-bottom : 5%;
+}
+
+.rating {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgb(61, 157, 186);
+  border-radius: 5px 0 0 0;
+  padding: 2px;
+  font-size: 10px;
+  width: 20%;
+  text-align: center;
+  color: white;
+  height: 15%;
+}
+
+.rating-text {
+  margin: 15%
 }

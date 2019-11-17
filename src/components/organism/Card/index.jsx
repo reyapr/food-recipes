@@ -1,11 +1,14 @@
 import React from 'react'
 import './styles.css'
 
-const Card = ({ image, name, creator, review }) => {
+const Card = ({ image, name, creator, review, rating }) => {
   return (
     <div className="card">
       <div className="header">
         <div style={backgRoundStyle(image)} />
+        <div className="rating">
+          <p className="rating-text">{rating}</p>
+        </div>
       </div>
       <div className="card-content">
         <div className="hidden-text-overflow name space-content">
