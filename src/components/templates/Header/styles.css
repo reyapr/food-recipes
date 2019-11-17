@@ -2,6 +2,10 @@
   background-color: rgb(227, 95, 86);
   height: 50px;
   text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
 }
 
 .title-text {
