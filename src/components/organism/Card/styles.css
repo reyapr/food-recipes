@@ -5,7 +5,7 @@
 }
 
 .header {
-  height: 120px;
+  height: 140px;
   position: relative;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .space-content {
-  margin-bottom : 5%;
+  margin-bottom : 10%;
 }
 
 .space-header {
@@ -33,7 +33,7 @@
   position: absolute;
   right: 0px;
   bottom: 0px;
-  background-color: rgb(61, 157, 186);
+  background-color: #5FA2AC;
   border-radius: 5px 0 0 0;
   padding: 2px;
   font-size: 10px;
@@ -53,8 +53,9 @@
 
 .review {
   overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    font-size: 0.9em;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  font-size: 0.9em;
+  color: rgb(59, 61, 59)
 }
