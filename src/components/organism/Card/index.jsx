@@ -2,7 +2,7 @@ import React from 'react'
 import './styles.css'
 
 const Card = ({ image, name, creator, review, rating }) => {
-  return (
+  return ( 
     <div className="card">
       <div className="header">
         <div style={backgRoundStyle(image)} />
