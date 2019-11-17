@@ -20,9 +20,14 @@ const Recipe = ({ recipes, actionGetRecipes }) => {
             recipes.map((recipe, index) => {
               return(
                 <div className="grid-item" key={index}>
-                  <Card/>
+                  <Card
+                    name={recipe.name}
+                    creator={recipe.creator}
+                    review={recipe.review}
+                    image={recipe.image}
+                    rating={recipe.rating}
+                  />
                 </div>
-               
               )
             })
           }
