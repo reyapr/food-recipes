@@ -15,7 +15,9 @@ const Recipe = ({ recipes, actionGetRecipes }) => {
       <div className="content-item">
         <div className="grid-container">
         {
-          recipes.map((recipe, index) => {
+          recipes
+          .filter(recipe => recipe.rating >= 4 && recipe.ingredients.includes('Chicken'))
+          .map((recipe, index) => {
             return(
               <div className="grid-item" key={index}>
                 <Card
