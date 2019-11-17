@@ -27,7 +27,7 @@ const Card = ({ image, name, creator, review, rating }) => {
 
 const backgRoundStyle = (image) => ({
   backgroundImage: `url(${image})`,
-  height: "120px",
+  height: "100%",
   backgroundPosition: "center",
   backgroundSize: "cover"
 })
