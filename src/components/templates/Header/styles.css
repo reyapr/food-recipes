@@ -1,0 +1,12 @@
+.title-container {
+  background-color: rgb(227, 95, 86);
+  height: 50px;
+  text-align: center;
+}
+
+.title-text {
+  color: white;
+  font-family: "SFRounded-SemiBold";
+  line-height: 50px;
+  margin: 0;
+}

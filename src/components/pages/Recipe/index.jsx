@@ -11,27 +11,24 @@ const Recipe = ({ recipes, actionGetRecipes }) => {
   }, [])
 
   return (
-    <div >
-      <div>Home</div>
-      <div className="content">
-        <div className="content-item">
-          <div className="grid-container">
-          {
-            recipes.map((recipe, index) => {
-              return(
-                <div className="grid-item" key={index}>
-                  <Card
-                    name={recipe.name}
-                    creator={recipe.creator}
-                    review={recipe.review}
-                    image={recipe.image}
-                    rating={recipe.rating}
-                  />
-                </div>
-              )
-            })
-          }
-          </div>
+    <div className="content">
+      <div className="content-item">
+        <div className="grid-container">
+        {
+          recipes.map((recipe, index) => {
+            return(
+              <div className="grid-item" key={index}>
+                <Card
+                  name={recipe.name}
+                  creator={recipe.creator}
+                  review={recipe.review}
+                  image={recipe.image}
+                  rating={recipe.rating}
+                />
+              </div>
+            )
+          })
+        }
         </div>
       </div>
     </div>
