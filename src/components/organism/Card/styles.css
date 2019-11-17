@@ -39,5 +39,9 @@
 }
 
 .rating-text {
-  margin: 15%
+  line-height: 1px;
+}
+
+.text-blue-color {
+  color: rgb(61, 157, 186)
 }
